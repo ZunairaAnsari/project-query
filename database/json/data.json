@@ -1,0 +1,27 @@
+[
+    {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "address": "123 Elm Street"
+    },
+    {
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "address": "456 Oak Avenue"
+    },
+    {
+        "name": "Emily Johnson",
+        "email": "emily.johnson@example.com",
+        "address": "789 Pine Road"
+    },
+    {
+        "name": "Brown",
+        "email": "mic@example.com",
+        "address": "321 Maple Lane"
+    },
+    {
+        "name": "Mich",
+        "email": "michabrown@example.com",
+        "address": "321 Maple Lane"
+    }
+]
