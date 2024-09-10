@@ -7,4 +7,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('welcome');
 // });
 
-Route::get('/', [studentController::class, 'index']);
+Route::get('/', [studentController::class, 'index'])->name('home');
+Route::get('/student/{id}', [studentController::class, 'singleStudent'])->name('view.studentView');
+Route::get('/delete/{id}', [studentController::class, 'deleteStudent'])->name('studentDelete');

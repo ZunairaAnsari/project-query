@@ -19,8 +19,6 @@
                 <th>name</th>
                 <th>email</th>
                 <th>address</th>
-                <th>View</th>
-                <th>Action</th>
             </tr>
         <tbody>
             @foreach ($students as $item)
@@ -30,9 +28,6 @@
                 <td>{{ $item->name }}</td>
                 <td>{{ $item->email }}</td>
                 <td>{{ $item->address }}</td>
-                <td><a href="{{ route('view.studentView' ,$item->id)}}" class="btn btn-sm btn-dark">View</a></td>
-                <td><a href="{{ route('studentDelete' , $item->id)}}" class="btn btn-sm btn-dark">Delete</a></td>
-
             </tr>
                 
             @endforeach
